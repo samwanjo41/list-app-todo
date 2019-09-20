@@ -1,4 +1,4 @@
-package com.example.sql
+package com.example.sql.Data
 
 import android.content.ContentValues
 import android.content.Context
@@ -8,7 +8,10 @@ import android.widget.Toast
 import java.lang.Exception
 
 class DBHandler (context: Context, name: String?, factory: SQLiteDatabase.CursorFactory?, version: Int) :
-    SQLiteOpenHelper(context, DATABASE_NAME, factory, DATABASE_VERSION) {
+    SQLiteOpenHelper(context,
+        DATABASE_NAME, factory,
+        DATABASE_VERSION
+    ) {
 
     companion object {
         //table name, version and columns

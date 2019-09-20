@@ -3,6 +3,7 @@ package com.example.sql
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.sql.Data.Todos
 import kotlinx.android.synthetic.main.activity_add_todo.*
 
 class AddTodo : AppCompatActivity() {
